@@ -25,8 +25,8 @@ cal_climatology_full
 
 
 ```@docs
-Ipaper.cal_mTRS_base!
-Ipaper.cal_mTRS_base3!
+ClimateStats.cal_mTRS_base!
+ClimateStats.cal_mTRS_base3!
 ```
 
 

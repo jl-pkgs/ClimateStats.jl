@@ -15,11 +15,7 @@ makedocs(
   ),
   pages=[
     "Introduction" => "index.md"
-    "R Base"       => "RBase.md"
-    "Statistics"   => "Statistics.md"
-    "Slope"        => "Slope.md"
     "Climate"      => "Climate.md"
-    "Parallel"     => "Parallel.md"
   ],
   sitename="ClimateStats.jl",
   warnonly=true,

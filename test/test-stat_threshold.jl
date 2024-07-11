@@ -7,7 +7,7 @@
   A = rand(Float32, 4, 4, n)
 
   probs = [0.90, 0.95, 0.99, 0.999, 0.9999]
-  kw = (; probs, na_rm=true, parallel=false, (fun!)=Ipaper.cal_mTRS_base3!)
+  kw = (; probs, na_rm=true, parallel=false, (fun!)=cal_mTRS_base3!)
 
   @time r1 = cal_mTRS_base(A, dates; kw..., method_q="mapslices")
   @time r2 = cal_mTRS_base(A, dates; kw..., method_q="base")
