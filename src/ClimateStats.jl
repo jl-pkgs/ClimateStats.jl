@@ -6,9 +6,13 @@ using Reexport
 using Printf
 using Dates
 
-using NaNStatistics
 using Ipaper
 using Ipaper: movmean
+using NaNStatistics
+using NaNStatistics: nanmean
+
+import CategoricalArrays: CategoricalArray, levels
+const factor = CategoricalArray
 
 include("base.jl")
 include("threshold.jl")
